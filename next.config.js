@@ -4,4 +4,10 @@ const nextConfig = {
   swcMinify: true,
 }
 
+module.exports = {
+  images: {
+    domains: ['media.licdn.com'],
+  },
+};
+
 module.exports = nextConfig
